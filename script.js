@@ -45,8 +45,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// ===== HERO NAME TYPEWRITER EFFECT =====
-// runs once on load – adds a subtle cursor blink to hero subtitle
 window.addEventListener('load', () => {
   document.querySelectorAll('.reveal').forEach((el, i) => {
     el.style.transitionDelay = `${i * 100}ms`;
